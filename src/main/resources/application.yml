@@ -1,0 +1,11 @@
+server:
+  port: 9080
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/bookProject?characterEncoding=UTF-8&serverTimezone=JST
+    username: root
+    password:
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: MYSQL

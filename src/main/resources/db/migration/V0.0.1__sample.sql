@@ -1,0 +1,1 @@
+create table login (userId int, password varchar(10));
